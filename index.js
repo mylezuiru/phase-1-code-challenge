@@ -15,7 +15,7 @@ function score(){
         alert("enter a value")
     }
 }
-
+//calculate speed
 function speed(){
     const kmh = document.getElementById("answer").value
     let answer;
@@ -32,7 +32,7 @@ function speed(){
     }
 
     document.getElementById('writeSpeed').innerHTML = answer
-}
+}//calculate netSalary
 
 function netSalary(){
     const salary = document.getElementById('gross').value
